@@ -10,7 +10,7 @@ class ChatService {
         headers: {
           'Content-Type': 'application/json',
           'Authorization':
-          'Bearer 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',
+          'Bearer',
         },
         body: jsonEncode({
           "model": "gpt-4o",
@@ -40,7 +40,7 @@ class ChatService {
         headers: {
           'Content-Type': 'application/json',
           'Authorization':
-          'Bearer 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',
+          'Bearer',
         },
         body: jsonEncode({
           "model": "dall-e-3",
